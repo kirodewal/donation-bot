@@ -14,7 +14,9 @@ Hi User!!
 
 Send  /donate to check further steps..
 
-Hello {update.message.chat.first_name}\n_Im a simple cricbuzz bot by @W4RR10R which let you know the live cricket score and updates from_ `cricbuzz.com` _within the telegram. \n/cricbuzz - to get all available options._",
+Hello {update.message.chat.first_name}
+_Im a simple cricbuzz bot by @W4RR10R which let you know the live cricket score and updates from_ `cricbuzz.com` _within the telegram. 
+/cricbuzz - to get all available options._",
 
            reply_markup = InlineKeyboardMarkup([
 
@@ -25,7 +27,6 @@ Hello {update.message.chat.first_name}\n_Im a simple cricbuzz bot by @W4RR10R wh
               [InlineKeyboardButton(text=f"Take me there",callback_data="take_me_there")]
 
           ]),
-
   ANSWER
   keyboard: 
   aliases: 
