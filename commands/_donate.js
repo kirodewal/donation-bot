@@ -1,14 +1,13 @@
 /*CMD
   command: /donate
   help: 
-  need_reply: false
+  need_reply: 
   auto_retry_time: 
   folder: 
-
-  <<ANSWER
-
-  ANSWER
+  answer: 
   keyboard: 
-  aliases: donate
+  aliases: 
 CMD*/
 
+ 
+bot.runCommand("/pay")
