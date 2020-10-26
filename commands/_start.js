@@ -14,7 +14,17 @@ Hi User!!
 
 Send  /donate to check further steps..
 
-Hello {update.message.chat.first_name}\n_Im a simple cricbuzz bot by @W4RR10R which let you know the live cricket score and updates from_ `cricbuzz.com` _within the telegram. \n/cricbuzz - to get all available options._",
+
+
+  ANSWER
+  keyboard: 
+  aliases: 
+CMD*/
+
+
+update.message.reply_text(
+
+           text = f"Hello {update.message.chat.first_name}\n_Im a simple cricbuzz bot by @W4RR10R which let you know the live cricket score and updates from_ `cricbuzz.com` _within the telegram. \n/cricbuzz - to get all available options._",
 
            reply_markup = InlineKeyboardMarkup([
 
@@ -26,8 +36,7 @@ Hello {update.message.chat.first_name}\n_Im a simple cricbuzz bot by @W4RR10R wh
 
           ]),
 
-  ANSWER
-  keyboard: 
-  aliases: 
-CMD*/
+          quote = True,
 
+          parse_mode = "markdown"
+)
